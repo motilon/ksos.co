@@ -1,0 +1,694 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  position: static;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  margin-left: 0px;
+  font-family: Questrial, sans-serif;
+  color: white;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 400;
+}
+h2 {
+  margin-top: 6px;
+  margin-bottom: 5px;
+  font-family: Questrial, sans-serif;
+  color: black;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  color: #36a9e1;
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  color: #36a9e1;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+  color: black;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.button.action {
+  display: inline-block;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background-color: #36a9e1;
+  font-family: Questrial, sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.button.action:hover {
+  background-color: #d6be6d;
+}
+.s-header {
+  margin-top: 10px;
+}
+.conte-p {
+  max-width: 1100px;
+}
+.conte-p.bhome {
+  margin-top: 47px;
+}
+.conte-p.work {
+  margin-top: 36px;
+}
+.conte-p.staff {
+  margin-top: 40px;
+}
+.navbar {
+  background-color: transparent;
+}
+.s-banner-home {
+  height: 420px;
+  margin-top: 15px;
+  border-top: 6px solid #36a9e1;
+  background-image: url('../images/fondo_bannerhome.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navlink {
+  padding-left: 10px;
+  font-family: Questrial, sans-serif;
+  font-size: 14px;
+}
+.navlink:hover {
+  color: #36a9e1;
+}
+.c-banner {
+  margin-right: 272px;
+  margin-left: 272px;
+}
+.caja-formulario-banner {
+  position: static;
+  display: block;
+  margin-bottom: 0px;
+  padding: 17px 10px 6px 20px;
+  border-radius: 5px;
+  background-color: black;
+  opacity: 0.63;
+}
+.text-negrita {
+  color: #36a9e1;
+}
+.text-secundario {
+  margin-top: 7px;
+  margin-bottom: 17px;
+  margin-left: 0px;
+  font-family: Questrial, sans-serif;
+  color: white;
+}
+.fied-action {
+  display: inline-block;
+  width: 238px;
+  height: auto;
+  margin-right: 5px;
+  margin-left: 0px;
+  border-radius: 5px;
+}
+.fied-comentario {
+  width: 483px;
+  border-radius: 5px;
+}
+.btn-form {
+  border-radius: 5px;
+  background-color: #36a9e1;
+}
+.btn-form:hover {
+  background-color: #e09c36;
+}
+.img-abogadas {
+  position: static;
+  right: 69px;
+  display: block;
+  margin-top: 28px;
+}
+.s-work {
+  margin-top: 53px;
+}
+.block-paso1 {
+  text-align: center;
+}
+.bock-paso2 {
+  text-align: center;
+}
+.bock-paso3 {
+  text-align: center;
+}
+.block-paso4 {
+  text-align: center;
+}
+.s-staff {
+  margin-top: 53px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #f2f4f5;
+  color: transparent;
+}
+.personal {
+  width: 50%;
+  text-align: center;
+}
+.dropdown-list.w--open {
+  margin-top: 21px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #1c1c1c;
+  opacity: 0.95;
+}
+.dropdown-link {
+  font-family: Questrial, sans-serif;
+  color: white;
+  line-height: 12px;
+}
+.dropdown-link:hover {
+  color: #36a9e1;
+}
+.nombre-staff {
+  position: static;
+  display: block;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  font-family: Questrial, sans-serif;
+  color: #36a9e1;
+  font-size: 20px;
+}
+.descripcionstaff {
+  display: block;
+  width: 380px;
+  margin-top: 17px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.s-action {
+  margin-top: 62px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.s-footer {
+  margin-top: 60px;
+  padding-top: 14px;
+  padding-bottom: 25px;
+  background-color: #333;
+}
+.col-footer1 {
+  margin-top: 25px;
+  font-family: Questrial, sans-serif;
+  color: #8a8a8a;
+}
+.t-col-footer {
+  color: #36a9e1;
+  font-size: 16px;
+}
+.col-footer2 {
+  margin-top: 25px;
+  font-family: Questrial, sans-serif;
+  color: #969595;
+}
+.link-footer {
+  color: #cccaca;
+}
+.link-footer:hover {
+  color: #36a9e1;
+}
+.multi-slider {
+  height: 400px;
+  background-color: transparent;
+}
+.flecha {
+  background-color: #36a9e1;
+}
+.mask-slider {
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.slids-staff {
+  width: 50%;
+  text-align: center;
+}
+.des-staff {
+  display: block;
+  width: 380px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.s-creditos {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #474747;
+  color: #737373;
+  font-weight: 400;
+}
+.link-credito {
+  color: #7d7d7d;
+}
+.link-credito:hover {
+  color: #c7c1c1;
+}
+.cabecera_paginas {
+  height: 180px;
+  margin-top: 15px;
+  padding-top: 43px;
+  border-top: 6px solid #36a9e1;
+  background-image: url('../images/img_cabecera.jpg');
+  background-repeat: no-repeat;
+}
+.breadcrumbs {
+  margin-top: 10px;
+}
+.text-donde {
+  display: inline-block;
+  font-family: Exo, sans-serif;
+  color: gray;
+}
+.link-breadcrumbs {
+  margin-left: 12px;
+  font-family: Exo, sans-serif;
+  color: #6e6e6e;
+}
+.link-breadcrumbs:hover {
+  color: #ccc;
+}
+.s-contenido {
+  margin-top: 60px;
+}
+.top-cabecera {
+  color: #636363;
+  font-size: 30px;
+  line-height: 37px;
+  text-transform: uppercase;
+}
+.h1internas {
+  display: block;
+  margin-bottom: 30px;
+  font-family: Lato, sans-serif;
+  color: #36a9e1;
+  font-size: 40px;
+  line-height: 43px;
+  font-weight: 300;
+}
+.internos-p {
+  margin-bottom: 30px;
+  font-family: Questrial, sans-serif;
+  color: #303030;
+  font-size: 17px;
+  text-align: justify;
+}
+.h2internas {
+  margin-bottom: 30px;
+  font-family: Lato, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.h3internas {
+  margin-bottom: 50px;
+  font-size: 32px;
+  line-height: 31px;
+}
+.col-izq {
+  padding-right: 29px;
+  padding-left: 10px;
+  border-right: 1px solid #e3e5e6;
+}
+.col-der {
+  padding-left: 0px;
+}
+.imagen-pages {
+  display: inline-block;
+  margin-bottom: 30px;
+  border-bottom: 7px solid #36a9e1;
+}
+.caja-lista-desordenada {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.lista-item {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-family: Exo, sans-serif;
+  font-weight: 700;
+}
+.titulo-widget {
+  display: block;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #36a9e1;
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.caja-widget {
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+.link-widget {
+  display: block;
+  margin-left: 20px;
+  font-family: Lato, sans-serif;
+  color: #36a9e1;
+  text-align: left;
+}
+.link-widget:hover {
+  color: black;
+}
+.col1-pla-top {
+  position: relative;
+  display: block;
+  padding: 10px 5px 50px;
+  background-color: #3d3d3d;
+  color: black;
+}
+.col2-plan-top {
+  padding: 10px 1px 20px;
+  background-color: #b6c26d;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-transform: none;
+}
+.col3-plan-top {
+  padding: 10px 5px 20px 1px;
+  background-color: #36a9e1;
+  text-align: center;
+}
+.col4-plan-top {
+  padding: 10px 1px 20px;
+  background-color: #963990;
+  text-align: center;
+}
+.name-plan {
+  margin-top: 20px;
+  font-family: Exo, sans-serif;
+  color: white;
+  font-size: 30px;
+}
+.precio-plan {
+  margin-top: 30px;
+  font-family: Exo, sans-serif;
+  color: white;
+  font-size: 25px;
+}
+.text-col1-plan {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: Exo, sans-serif;
+  color: white;
+}
+.text-des-planes {
+  margin-top: 10px;
+  font-family: Exo, sans-serif;
+  font-size: 15px;
+}
+.text-des-planes.duracion {
+  text-align: center;
+}
+.fila-impar-planes {
+  margin-top: 1px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  background-color: #e8e8e8;
+}
+.col-des-plan-impar {
+  padding-bottom: 10px;
+  background-color: #b5b3b3;
+}
+.col-cantidad-impar {
+  position: relative;
+  display: block;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-bottom: 10px;
+  border-right: 1px none white;
+}
+.fila-par-planes {
+  margin-top: 1px;
+  background-color: #f7f7f7;
+}
+.col-cantidad-par {
+  display: block;
+  padding-bottom: 10px;
+  border-right: 1px none white;
+  background-color: #f7f7f7;
+}
+.fila-btn-payu {
+  margin-top: 5px;
+  text-align: center;
+}
+.text-datos-contacto {
+  font-family: Exo, sans-serif;
+  color: #3b3b3b;
+  font-size: 17px;
+  font-weight: 500;
+}
+.btn-formulariocontact {
+  background-color: #36a9e1;
+}
+@media (max-width: 991px) {
+  h3 {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .conte-p {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .s-banner-home {
+    height: auto;
+    margin-top: 15px;
+  }
+  .navlink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #36a9e1;
+  }
+  .navlink:hover {
+    color: #929394;
+  }
+  .caja-formulario-banner {
+    margin-bottom: 30px;
+    margin-left: 13px;
+  }
+  .fied-action {
+    width: 320px;
+  }
+  .fied-comentario {
+    width: 320px;
+  }
+  .img-abogadas {
+    margin-top: 110px;
+  }
+  .s-footer {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .slids-staff {
+    width: 100%;
+  }
+  .breadcrumbs {
+    margin-left: 20px;
+  }
+  .top-cabecera {
+    margin-left: 20px;
+  }
+  .h1internas {
+    margin-left: 20px;
+  }
+  .internos-p {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .h2internas {
+    margin-left: 20px;
+  }
+  .text-col1-plan {
+    margin-left: 20px;
+  }
+  .text-des-planes {
+    margin-left: 10px;
+  }
+  .text-datos-contacto {
+    margin-left: 20px;
+  }
+  .caja-form {
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .navmenu-responsive {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #333;
+  }
+  .menu-button-responsive.w--open {
+    background-color: #36a9e1;
+  }
+}
+@media (max-width: 767px) {
+  .s-banner-home {
+    height: auto;
+  }
+  .fied-action {
+    width: 460px;
+  }
+  .fied-comentario {
+    width: 460px;
+  }
+  .img-abogadas {
+    left: 53px;
+    margin-top: 0px;
+  }
+  .s-footer {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .breadcrumbs {
+    display: none;
+  }
+  .name-plan {
+    font-size: 27px;
+  }
+  .precio-plan {
+    font-size: 21px;
+  }
+  .text-col1-plan {
+    font-size: 12px;
+  }
+}
+@media (max-width: 479px) {
+  h2 {
+    line-height: 24px;
+  }
+  h3 {
+    line-height: 34px;
+  }
+  .button.action {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .conte-p {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .s-banner-home {
+    height: auto;
+  }
+  .caja-formulario-banner {
+    margin-left: 0px;
+  }
+  .fied-action {
+    width: 250px;
+  }
+  .fied-comentario {
+    width: 250px;
+  }
+  .img-abogadas {
+    left: -8px;
+  }
+  .personal {
+    position: relative;
+    width: 100%;
+  }
+  .slids-staff {
+    width: 100%;
+  }
+  .des-staff {
+    width: 200px;
+  }
+  .breadcrumbs {
+    display: none;
+  }
+  .h2internas {
+    margin-right: 20px;
+  }
+  .col1-pla-top {
+    padding-bottom: 57px;
+  }
+  .name-plan {
+    font-size: 18px;
+  }
+  .precio-plan {
+    margin-top: 10px;
+    font-size: 11px;
+  }
+  .text-col1-plan {
+    margin-top: 20px;
+    margin-left: 3px;
+    font-size: 6px;
+    line-height: 11px;
+  }
+  .text-des-planes {
+    margin-left: 3px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .col-des-plan-impar {
+    padding-right: 3px;
+    padding-left: 5px;
+  }
+  .menu-button-responsive.w--open {
+    background-color: #36a9e1;
+  }
+}
+
